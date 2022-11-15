@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Door</string>
+    <string name="greetings">Greetings</string>
+    <string name="enter">enter</string>
+    <string name="doorbutton">doorButton</string>
+    <string name="doorOpeningAnimation" />
+    <string name="doorOpenClose" />
+    <string name="top_users">top users</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="the_wall">The Wall</string>
+    <string name="doorDrawingAnimation" />
+    <string name="login_with">login with</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main123">MainActivity123</string>
+    <string name="this_is_some_privacy_agreement_allowing_us_to_track_you_but_dont_worrk_it_will_make_me_rich_and_waste_your_time">This is some privacy agreement allowing us to track you. But dont worrk it will make me rich and waste your time</string>
+    <string name="this_is_some_privacy_agreement_allowing_us_to_track_you_but_dont_worry_it_will_make_me_rich_and_waste_your_time">this_is_some_privacy_agreement_allowing_us_to_track_you_but_dont_worry_it_will_make_me_rich_and_waste_your_time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

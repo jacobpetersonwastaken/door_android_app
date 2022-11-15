@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calFrag"
+    android:layout_width="match_parent"
+    android:background="@color/door_blue"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebas_neue"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <HorizontalScrollView
+            android:id="@+id/monthScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="53dp"
+            android:fadingEdgeLength="95dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:requiresFadingEdge="horizontal"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/monthLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="100dp"
+                android:paddingEnd="100dp">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/dayScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monthScroll"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="56dp"
+            android:fadingEdgeLength="125dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:requiresFadingEdge="horizontal"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/dayLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="100dp"
+                android:paddingEnd="100dp">
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/yearScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dayScroll"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="49dp"
+            android:fadingEdgeLength="95dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:requiresFadingEdge="horizontal"
+            android:scrollbars="none"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/yearLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:paddingStart="100dp"
+                android:paddingEnd="100dp">
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

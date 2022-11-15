@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Map"
+        android:icon="@drawable/ic_mapicon"
+        android:id="@+id/map" />
+    <item android:title="Wall"
+        android:icon="@drawable/ic_wallicon"
+        android:id="@+id/wall"/>
+    <item android:title="Search"
+        android:icon="@drawable/ic_searchicon"
+        android:id="@+id/search"/>
+    <item android:title="Profile"
+        android:icon="@drawable/ic_profileicon"
+        android:id="@+id/profile"/>
+</menu>
